@@ -1,10 +1,11 @@
 # kubernetes-ovn-deploy
 ## 步骤：
 1.
-安装kubernetes-ovn   [kubernetes-ovn](%3Ca href="https://github.com/openvswitch/ovn-kubernetes"%3Ehttps://github.com/openvswitch/ovn-kubernetes%3C/a%3E)
+安装kubernetes-ovn   [kubernetes-ovn](https://github.com/openvswitch/ovn-kubernetes"%3Ehttps://github.com/openvswitch/ovn-kubernetes%3C/a%3E)
 
 2.
 安装openvswitch [openvswich](http://docs.openvswitch.org/en/latest/intro/install)
+
 $./boot.sh &&./configure --prefix=/usr --localstatedir=/var --sysconfdir=/etc CFLAGS="-g -O2 -msse4.2"
 
 
@@ -146,4 +147,6 @@ nohup sudo ovnkube -k8s-kubeconfig /root/.kube/config \
  -sb-address="tcp://$CENTRAL_IP:6642" 2>&1 &
 
 echo $?
+
+#-init-gateways -gateway-localnet \
 ```
