@@ -1,7 +1,7 @@
 # kubernetes-ovn-deploy
 ## 步骤：
 1.
-安装kubernetes-ovn   [kubernetes-ovn](https://github.com/openvswitch/ovn-kubernetes"%3Ehttps://github.com/openvswitch/ovn-kubernetes%3C/a%3E)
+安装kubernetes-ovn   [kubernetes-ovn](https://github.com/openvswitch/ovn-kubernetes)
 
 2.
 安装openvswitch [openvswich](http://docs.openvswitch.org/en/latest/intro/install)
